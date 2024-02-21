@@ -3,8 +3,6 @@ import { Outlet } from 'react-router-dom';
 // @mui
 import { styled } from '@mui/material/styles';
 //
-import Header from './header';
-import Nav from './nav';
 
 // ----------------------------------------------------------------------
 
@@ -33,7 +31,7 @@ const Main = styled('div')(({ theme }) => ({
 // ----------------------------------------------------------------------
 
 export default function DashboardLayout() {
-  const [open, setOpen] = useState(false);
+  //const [open, setOpen] = useState(false);
 
   return (
     <StyledRoot>
